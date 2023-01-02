@@ -141,6 +141,10 @@ body {
   align-items: center;
 }
 
+strong {
+  font-weight: 500;
+}
+
 /*//////// Header Navigation ////////*/
 
 .header {
@@ -345,4 +349,89 @@ body {
   padding-bottom: 70%;
   background-color: #ffe5cc;
   z-index: -1;
+}
+
+/*//////// Meals Section ////////*/
+
+.section-meals {
+  padding: 96px 0;
+}
+
+.meal {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.meal-content {
+  padding: 24px 48px 24px 48px;
+}
+
+.meal-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meal-attribute {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.meal-attributes li:last-child {
+  margin-bottom: 24px;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-icon {
+  height: 24px;
+  width: 24px;
+  color: #ff7f00;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn--order:link,
+.btn--order:visited {
+  display: inline-block;
+  color: #fff;
+  background-color: #ff7f00;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 16px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn--order:hover,
+.btn--order:active {
+  background-color: #e67200;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.price span {
+  color: #ff7f00;
+  font-weight: 600;
 }
