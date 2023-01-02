@@ -2,7 +2,7 @@
 ////////COLOR PALETTE/////// 
 
 Main Color: #FF7F00
-tint color: #fff2e6, #ffbf80, #e67200
+tint color: #fff2e6, #ffe5cc, #ffbf80, #e67200
 #555
 #333
 */
@@ -317,4 +317,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: relative;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  position: absolute;
+}
+
+.step-img-box::before {
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #fff2e6;
+  z-index: -2;
+}
+
+.step-img-box::after {
+  width: 70%;
+  padding-bottom: 70%;
+  background-color: #ffe5cc;
+  z-index: -1;
 }
