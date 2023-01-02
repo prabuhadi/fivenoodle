@@ -24,6 +24,13 @@ body {
 
 /*//////// General Reusable Component ////////*/
 
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
 .heading-primary {
   font-size: 52px;
   font-weight: 700;
@@ -31,6 +38,22 @@ body {
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 32px;
+}
+
+.heading-secondary {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.subheading {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff7f00;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -88,6 +111,23 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
+}
+
+.grid {
+  display: grid;
+  gap: 96px;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /*//////// Header Navigation ////////*/
@@ -226,4 +266,15 @@ body {
 
 .logos--last img:last-child {
   height: 40px;
+}
+
+/*//////// How App Works ////////*/
+
+.section-how {
+  padding: 96px 0;
+}
+
+.step-img {
+  width: 50%;
+  border-radius: 24px;
 }
