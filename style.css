@@ -2,7 +2,7 @@
 ////////COLOR PALETTE/////// 
 
 Main Color: #FF7F00
-tint color: #fff2e6, #e67200
+tint color: #fff2e6, #ffbf80, #e67200
 #555
 #333
 */
@@ -293,7 +293,7 @@ body {
 .step-number {
   font-size: 86px;
   font-weight: 600;
-  color: #ddd;
+  color: #ffbf80;
   margin-bottom: 12px;
   text-transform: uppercase;
 }
