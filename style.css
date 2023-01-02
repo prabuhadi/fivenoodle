@@ -109,6 +109,10 @@ body {
   margin-right: 16px !important;
 }
 
+.margin-bottom-md {
+  margin-bottom: 48px !important;
+}
+
 .main-color {
   color: #ff7f00 !important;
 }
@@ -139,6 +143,10 @@ body {
 
 .grid--center {
   align-items: center;
+}
+
+.center-text {
+  text-align: center;
 }
 
 strong {
@@ -413,12 +421,12 @@ strong {
   display: inline-block;
   color: #fff;
   background-color: #ff7f00;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   padding: 16px;
   border-radius: 9px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   transition: background-color 0.3s;
 }
 
@@ -434,4 +442,25 @@ strong {
 .price span {
   color: #ff7f00;
   font-weight: 600;
+}
+
+.our-menu {
+  text-align: center;
+  font-size: 20px;
+}
+
+.link:link,
+.link:visited {
+  color: #ff7f00;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #e67200;
+  border-bottom: 1px solid transparent;
 }
