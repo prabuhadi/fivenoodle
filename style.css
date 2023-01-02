@@ -109,12 +109,19 @@ body {
   gap: 42px;
 }
 
-.main-nav-link {
+.main-nav-link:link,
+.main-nav-link:visited {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   font-size: 18px;
   text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e67200 !important;
 }
 
 /*//////// Hero Section ////////*/
