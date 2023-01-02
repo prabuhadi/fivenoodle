@@ -77,7 +77,11 @@ body {
 }
 
 .margin-right-sm {
-  margin-right: 16px;
+  margin-right: 16px !important;
+}
+
+.main-color {
+  color: #ff7f00 !important;
 }
 
 .container {
@@ -102,7 +106,15 @@ body {
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 32px;
+  gap: 42px;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 /*//////// Hero Section ////////*/
@@ -197,6 +209,14 @@ body {
   margin-top: 32px;
 }
 
+.logos--last img:first-child {
+  height: 62px;
+}
+
+.logos--last img:nth-child(2) {
+  height: 62px;
+}
+
 .logos--last img:last-child {
-  height: 42px;
+  height: 40px;
 }
