@@ -146,6 +146,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center {
   align-items: center;
 }
@@ -197,7 +201,7 @@ strong {
 .section-hero {
   /* height: 100vh; */
   background-color: #fff2e6;
-  padding: 42px 0 96px 0;
+  padding: 48px 0 96px 0;
 }
 
 .hero {
@@ -665,5 +669,8 @@ strong {
   color: #333;
 }
 
-.cta-form button {
+/*//////// Footer ////////*/
+
+.footer {
+  padding: 96px 0;
 }
