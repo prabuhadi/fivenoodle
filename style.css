@@ -2,7 +2,7 @@
 ////////COLOR PALETTE/////// 
 
 Main Color: #FF7F00
-tint color: #fff2e6, #ffe5cc, #ffbf80, #e67200
+tint color: #fff2e6, #ffe5cc, #ffbf80, #ff9933, #e67200, #4c2600
 #555
 #333
 */
@@ -300,6 +300,11 @@ strong {
 .step-img {
   width: 50%;
   border-radius: 24px;
+  transition: all 0.3s;
+}
+
+.step-img:hover {
+  transform: translateY(-18px);
 }
 
 .step-number {
@@ -569,4 +574,48 @@ strong {
 .gallery-item img {
   display: block;
   width: 100%;
+}
+
+/*//////// CTA Section ////////*/
+
+.section-cta {
+  padding: 96px 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #ff7f00;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right bottom, #ff7f00, #ff9933);
+  height: 500px;
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 48px 64px 64px 64px;
+  color: #4c2600;
+}
+
+.cta .heading-secondary {
+  color: #4c2600;
+  margin-bottom: 32px;
+}
+
+.cta-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 128, 0, 0.3),
+      rgba(255, 153, 51, 0.35)
+    ),
+    url("/img/Eating.jpg");
+  background-size: cover;
+  background-position: center;
 }
