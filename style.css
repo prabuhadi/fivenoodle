@@ -301,6 +301,34 @@ strong {
   height: 40px;
 }
 
+/*//////// Header Navigation ////////*/
+
+.section-feature {
+  padding: 96px 0;
+}
+
+.feature-icon {
+  color: #ff7f00;
+  height: 24px;
+  width: 24px;
+  margin-bottom: 32px;
+  background-color: #ffe5cc;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.feature-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
 /*//////// How App Works ////////*/
 
 .section-how {

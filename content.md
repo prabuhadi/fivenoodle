@@ -22,10 +22,13 @@ Say goodbye to the hassle of cooking. With Fivenoodle, you can choose from a wid
 
 ### Fivenoodle Feature
 
-Best Recipe:
-Fresh & Organic:
-Happy Tummy:
-Zero Waste:
+Best Recipes:Fivenoodle is a company that specializes in providing you the best noodle recipes to make the best noodles! We are committed to offering you the most delicious and unique noodle recipes on the market.
+
+Fresh & Organic:Meet the new noodle that is so good for you, you'll wonder why you ever put anything else in your mouth! We use organic, fresh ingredients.
+
+Happy Tummy:Our noodles are also gluten-free, vegan, and free of preservatives. We should have known, that our customers would want the best so we offer a wide variety of noodle shapes and sizes.
+
+Zero Waste:Fivenoodle Feature is proud to be a company that is committed to zero waste. We only support plastic-free packaging, and our products are recyclable.
 
 ### How Fivenoodle Works
 
