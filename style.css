@@ -746,3 +746,12 @@ strong {
 .address {
   margin-bottom: 24px;
 }
+
+/* Contact Us Style Start*/
+
+.section-hero-contact {
+  padding: 24px 96px;
+  height: 40vh;
+}
+
+/* Contact Us Style End*/
