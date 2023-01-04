@@ -1,0 +1,108 @@
+.section-hero-contact {
+  padding: 96px;
+}
+
+.title-contact {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.title-contact h3 {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.option-contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-contact {
+  background-color: #fff;
+  height: 250px;
+  width: 225px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 5px 10px 8px -2px rgba(0, 0, 0, 0.29);
+  transition: 0.3s ease;
+  color: #ff9933;
+}
+.card-contact:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.card-contact i {
+  font-size: 96px;
+}
+.card-contact p {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.email-section {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 5px;
+}
+.email-section h2 {
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  color: #ff7f00;
+}
+
+.email-section form {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.email-section form input,
+.email-section form textarea,
+.email-section form button {
+  width: 75%;
+  margin-bottom: 8px;
+  font-family: inherit;
+  outline: none;
+  padding: 8px;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 18px;
+  font-family: inherit !important;
+  border-color: #ff9933;
+  border-radius: 9px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.email-section form input:focus,
+.email-section form textarea:focus {
+  border-color: red;
+}
+
+.btn-send {
+  background-color: #4c2600;
+  font-family: inherit;
+  color: #fff;
+  padding: 12px;
+}
+
+.btn-send:hover {
+  background-color: #ff7f00;
+  color: #fff;
+}
+
+.email-section hr {
+  width: 70%;
+}
