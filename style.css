@@ -549,11 +549,8 @@ strong {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  column-gap: 16px;
-  row-gap: 0px;
-  justify-items: center;
-  align-items: center;
-  padding: 16px;
+  gap: 9px;
+  padding: 16px 32px 16px 16px;
 }
 
 .gallery-item:nth-child(1) {
@@ -579,19 +576,16 @@ strong {
 .gallery-item:nth-child(5) {
   grid-column: 3/4;
   grid-row: 1/3;
-  width: 103%;
 }
 
 .gallery-item:nth-child(6) {
   grid-column: 1/2;
   grid-row: 3/5;
-  width: 98%;
 }
 
 .gallery-item:nth-child(7) {
   grid-column: 2/4;
   grid-row: 3/5;
-  width: 95%;
 }
 
 .gallery-item:nth-child(8) {
@@ -612,6 +606,8 @@ strong {
 .gallery-item img {
   display: block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*//////// CTA Section ////////*/
