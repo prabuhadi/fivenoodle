@@ -206,7 +206,7 @@ strong {
 }
 
 .header.sticky {
-  padding: 5px 100px;
+  padding: 25px 100px;
   background: #fff;
 }
 
@@ -220,6 +220,7 @@ strong {
 
 a {
   height: 100%;
+  padding-bottom: 16px;
 }
 
 .main-nav-list {
