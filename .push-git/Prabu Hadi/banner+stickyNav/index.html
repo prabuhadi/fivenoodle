@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="main-nav-left">
         <ul class="main-nav-list">
           <!-- <li><a href="#">Home</a></li> -->
@@ -26,6 +26,7 @@
       <a href="#"
         ><img
           class="logo"
+          id="logo"
           src="/img/logo/5noodle-logo.png"
           alt="fivenoodle logo"
       /></a>
@@ -223,10 +224,21 @@
       </div>
     </footer>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var header = document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script> -->
+    <script>
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          header.style.height = "110px";
+        } else {
+          header.style.height = "130px";
+        }
       });
     </script>
   </body>

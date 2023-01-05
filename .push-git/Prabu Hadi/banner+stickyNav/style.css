@@ -177,6 +177,8 @@ strong {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.03);
   transition: all 0.6s;
   z-index: 999;
+  gap: 16px;
+  height: 108px;
 }
 
 .banner {
@@ -213,7 +215,11 @@ strong {
 }
 
 .logo {
-  height: 133px;
+  height: 100%;
+}
+
+a {
+  height: 100%;
 }
 
 .main-nav-list {
