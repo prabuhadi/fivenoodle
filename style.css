@@ -170,10 +170,59 @@ strong {
   align-items: center;
   justify-content: center;
   background-color: #fff2e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.03);
+  transition: all 0.6s;
+  z-index: 999;
+  gap: 16px;
+  height: 108px;
+}
+
+/*/////// Sticky NAV - PURPOSE  ///////*/
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+  /* Gradient Image */
+  background-image: linear-gradient(
+      to right,
+      rgba(36, 22, 7, 100),
+      rgba(255, 128, 0, 0.3)
+    ),
+    url(https://images.pexels.com/photos/3184195/pexels-photo-3184195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-88%, -50%);
+  color: #fff;
+  font-size: 72px;
+}
+
+.header.sticky {
+  padding: 25px 100px;
+  background: #fff;
+}
+
+.header.sticky.logo {
+  transform: scale(0.5) !important;
 }
 
 .logo {
-  height: 166px;
+  height: 100%;
+}
+
+a {
+  height: 100%;
+  padding-bottom: 16px;
 }
 
 .main-nav-list {
@@ -202,7 +251,7 @@ strong {
 .section-hero {
   /* height: 100vh; */
   background-color: #fff2e6;
-  padding: 48px 0 96px 0;
+  padding: 102px 0 96px 0;
 }
 
 .hero {
@@ -361,6 +410,7 @@ strong {
   margin-bottom: 92px;
   font-size: 20px;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .step-description {

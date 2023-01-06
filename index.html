@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="main-nav-left">
         <ul class="main-nav-list">
           <!-- <li><a href="#">Home</a></li> -->
@@ -51,6 +51,12 @@
         </ul>
       </nav>
     </header>
+
+    <section class="banner">
+      <div class="banner-text heading-primary">
+        Start Eating Well Today, Try Our Revolutionary Noodle
+      </div>
+    </section>
 
     <section class="section-hero">
       <div class="hero">
@@ -578,5 +584,18 @@
         </nav>
       </div>
     </footer>
+
+    <!-- Sticky Nav JS  -->
+    <script>
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          header.style.height = "100px";
+        } else {
+          header.style.height = "130px";
+        }
+      });
+    </script>
   </body>
 </html>
