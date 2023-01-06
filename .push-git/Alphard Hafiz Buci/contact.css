@@ -4,7 +4,15 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #fff2e6;
+  /* background-color: hsla(30, 100%, 50%, 0.674); */
+  background-image: linear-gradient(
+      to right,
+      rgba(36, 22, 7, 100),
+      rgba(255, 127, 0, 0.3)
+    ),
+    url("background\ tumpukan\ mi.avif");
+  background-position: center;
+  background-size: cover;
   /* background: linear-gradient(
     180deg,
     rgba(255, 242, 230, 1) 0%,
