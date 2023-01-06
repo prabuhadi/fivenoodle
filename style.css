@@ -14,6 +14,7 @@ tint color: #fff2e6, #ffe5cc, #ffbf80, #ff9933, #e67200, #4c2600
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  scroll-behavior: smooth;
 }
 
 /*//////// General Reusable Component ////////*/
