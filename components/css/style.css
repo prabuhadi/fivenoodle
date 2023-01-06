@@ -823,32 +823,5 @@ a {
   margin-bottom: 24px;
 }
 
-/* menu */
-.nav-margin {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
-  padding: 20px 0;
-}
 
-.nav-menu {
-  display: flex;
-  list-style: none;
-  width: 20%;
-  justify-content: space-between;
-}
 
-.nav-link-menu:link,
-.nav-link-menu:visited {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  font-size: 1.4em;
-  text-transform: uppercase;
-  transition: all 0.3s;
-}
-
-.nav-link-menu:hover,
-.nav-link-menu:active {
-  color: #e67200 !important;
-}
