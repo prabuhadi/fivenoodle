@@ -132,3 +132,38 @@
 .email-section hr {
   width: 70%;
 }
+
+/* Tablet */
+@media only screen and (max-width: 780px) {
+  .email-section {
+    /* margin-top: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .email-section .section-contact-left,
+  .email-section .section-contact-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .email-section form input,
+  .email-section form textarea,
+  .email-section form button {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .section-hero-contact {
+    padding: 144px 0 96px 0;
+  }
+
+  .email-section {
+    width: 90%;
+  }
+}
