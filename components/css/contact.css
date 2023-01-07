@@ -166,4 +166,45 @@
   .email-section {
     width: 90%;
   }
+
+  .title-contact {
+    margin-bottom: 0;
+  }
+
+  .option-contact {
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-contact {
+    height: 90px;
+    flex-direction: column;
+    margin: 16px auto;
+    width: 100px;
+  }
+  .card-contact i {
+    transform: scale(0.7);
+    margin-left: 0;
+  }
+
+  .card-contact p {
+    transform: scale(0.6);
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .email-section .section-contact-right h1 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .email-section form input,
+  .email-section form textarea,
+  .email-section form button {
+    padding: 8px;
+    font-size: 12px;
+  }
 }
