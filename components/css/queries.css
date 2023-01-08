@@ -35,3 +35,24 @@
 
   /* Resize logos and other section */
 }
+
+@media (max-width: 880px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 80%;
+  }
+
+  a {
+    padding-bottom: 0;
+  }
+}
