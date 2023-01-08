@@ -1,0 +1,9 @@
+@media (max-width: 1300px) {
+  .hero {
+    max-width: 1200px;
+  }
+
+  .heading-primary {
+    font-size: 44px;
+  }
+}
