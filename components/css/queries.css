@@ -6,9 +6,13 @@
   .heading-primary {
     font-size: 44px;
   }
+
+  .gallery {
+    height: 100%;
+  }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1110px) {
   .hero {
     grid-template-columns: 1fr;
     padding: 0 80px;
@@ -60,10 +64,6 @@
 
   .meal-content {
     padding: 32px 24px 24px 24px;
-  }
-
-  .gallery {
-    height: 100%;
   }
   /* Resize logos and other section */
 }
