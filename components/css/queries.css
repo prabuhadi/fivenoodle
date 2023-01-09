@@ -87,4 +87,17 @@
   a {
     padding-bottom: 0;
   }
+
+  .banner-text {
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
 }
