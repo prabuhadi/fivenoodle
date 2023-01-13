@@ -202,7 +202,66 @@
   }
 }
 
-@media (max-width: 480px) {
+/* FOR MOBILE  */
+@media (max-width: 550px) {
+  .container {
+    padding: 0 96px;
+  }
+
+  .testimonials-container {
+    padding: 72px;
+  }
+
+  .heading-primary {
+    font-size: 30px;
+  }
+
+  .heading-secondary {
+    font-size: 26px;
+  }
+
+  .heading-tertiary {
+    font-size: 20px;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited,
+  .btn--order:link,
+  .btn--order:visited {
+    font-size: 14px;
+  }
+
+  .logos img {
+    height: 40px;
+  }
+
+  .logos--last img:nth-child(2),
+  .logos--last img:nth-child(1) {
+    height: 30px;
+  }
+
+  .logos--last img:last-child {
+    height: 22px;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img {
+    width: 44%;
+  }
+
   .section-cta {
     padding: 48px 0;
   }
