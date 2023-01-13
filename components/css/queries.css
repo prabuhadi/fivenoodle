@@ -201,3 +201,37 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .section-cta {
+    padding: 48px 0;
+  }
+  .container {
+    padding: 0 24px;
+    text-align: center;
+  }
+  .cta-text-box {
+    padding: 24px;
+  }
+
+  .cta .heading-secondary {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .cta-text {
+    margin-bottom: 24px;
+  }
+
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta-form div {
+    margin-bottom: 4px;
+  }
+
+  .btn--form {
+    width: 100%;
+  }
+}
