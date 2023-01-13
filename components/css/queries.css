@@ -204,10 +204,6 @@
 
 /* FOR MOBILE  */
 @media (max-width: 550px) {
-  .container {
-    padding: 0 96px;
-  }
-
   .testimonials-container {
     padding: 72px;
   }
@@ -229,7 +225,12 @@
   .btn:visited,
   .btn--order:link,
   .btn--order:visited {
-    font-size: 14px;
+    font-size: 16px;
+  }
+
+  .btn--order:link,
+  .btn--order:visited {
+    padding: 16px 32px;
   }
 
   .logos img {
@@ -269,6 +270,11 @@
     padding: 0 24px;
     text-align: center;
   }
+
+  .testimonial-img {
+    width: 25%;
+  }
+
   .cta-text-box {
     padding: 24px;
   }
@@ -292,5 +298,18 @@
 
   .btn--form {
     width: 100%;
+  }
+
+  .grid--footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 9px;
+  }
+
+  .nav-col {
+    grid-row: 1;
+  }
+
+  .address-col {
+    grid-column: span 2;
   }
 }
