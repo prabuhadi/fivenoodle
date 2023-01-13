@@ -202,10 +202,31 @@
   }
 }
 
-/* FOR MOBILE  */
+/* BELOW 550px FOR MOBILE RESPONSIVE  */
 @media (max-width: 550px) {
+  .hero-img {
+    width: 100%;
+  }
+
+  .section-hero {
+    padding: 82px 0 36px 0;
+  }
+
+  .section-feature {
+    padding: 40px 0;
+  }
+
+  .section-how {
+    padding: 40px 0;
+  }
+
+  .btn--outline {
+    margin-top: 24px;
+    margin-right: 17px;
+  }
+
   .testimonials-container {
-    padding: 72px;
+    padding: 72px 72px 0 72px;
   }
 
   .heading-primary {
