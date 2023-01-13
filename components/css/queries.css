@@ -146,6 +146,16 @@
     height: 28px;
   }
 
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .meal:last-child {
+    grid-column: 1/ -1;
+    justify-self: center;
+    width: 50%;
+  }
+
   .section-testimonials {
     grid-template-columns: 1fr;
   }
@@ -290,6 +300,10 @@
   .container {
     padding: 0 24px;
     text-align: center;
+  }
+
+  .meal {
+    margin: 0 70px;
   }
 
   .testimonial-img {
